@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+       <!-- LOGO AND NAME -->
+        <header>
+            <img src="images/udacity-logo.PNG" alt="udacity logo">
+            <div class="name">
+                <h1>SERDAR YIGIT</h1>
+                <h2>Front-End Developer</h2>
+            </div>
+        </header>
+        <!-- SLIDER IMAGE -->
+        <main>
+           <!-- RESPONSIVE IMAGES -->
+            <img srcset="images/b-400.jpg 400w,
+                         images/b-600.jpg 600w,
+                         images/b-800.jpg 800w,
+                         images/background.jpg 1000w" sizes="(max-width: 400px) 400px,
+                       (max-width: 600px) 600px,
+                       (max-widht: 800px) 800px
+                       1000px" src="images/background.jpg" alt="working desk with laptop">
+                       <!-- PROJECTS SECTION -->
+            <section class="works">
+                <h1>Featured Work</h1>
+                <div class="projects">
+                    <img src="images/image-slider.png" alt="wine with blur background">
+                    <h2>ImageSlider</h2>
+                    <a href="https://codepen.io/yigitserdar/full/PQzXjz" target="_blank"><button>Visit</button></a>
+                </div>
+                <div class="projects">
+                    <img src="images/pixelartmaker.jpg" alt="bird draw on napkin">
+                    <h2>PixelArtMaker</h2>
+                    <a href="https://codepen.io/yigitserdar/full/BYBNXP" target="_blank"><button>Visit</button></a>
+                </div>
+                <div class="projects animal-card">
+                    <img src="images/animal-card.jpg" alt="ants vs. bees">
+                    <h2>AnimalCard</h2>
+                    <a href="https://codepen.io/yigitserdar/full/LQmWrr" target="_blank"><button>Visit</button></a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2018 Serdar</p>
+            <!-- COMMUNICATION LINKS -->
+            <div class="social">
+                <a href="mailto:yigitserdar34@gmail.com?Subject=Hello%20again" target="_top"><i class="far fa-envelope"></i></a>
+                <a href="https://github.com/yigitserdar" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://codepen.io/yigitserdar/" target="_blank"><i class="fab fa-codepen"></i></a>
+            </div>
+        </footer>
+    </div> <!-- END OF CONTAINER -->
+</body>
+</html>
